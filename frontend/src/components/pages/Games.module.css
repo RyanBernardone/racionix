@@ -1,0 +1,56 @@
+.page {
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.title {
+  color: #6200ea;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.gamesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.gameCard {
+  width: 280px;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gameCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.gameCard:active {
+  transform: scale(0.97);
+}
+
+.gameImage {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.gameInfo {
+  padding: 1rem;
+}
+
+.gameInfo small {
+  color: gray;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.gameInfo strong {
+  font-size: 1.1rem;
+}

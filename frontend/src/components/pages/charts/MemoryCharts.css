@@ -1,0 +1,34 @@
+.metricChartContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 1rem;
+}
+
+/* Container individual do gráfico */
+.chartCard {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 1000px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* Título do gráfico */
+.chartCard h3 {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #333;
+  margin-bottom: 1.2rem;
+  font-weight: 600;
+}
+
+/* Wrapper do gráfico Recharts para responsividade */
+.recharts-wrapper {
+  width: 100% !important;
+  height: 400px !important;
+}

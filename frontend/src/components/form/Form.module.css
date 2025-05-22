@@ -1,0 +1,62 @@
+body{ 
+    background-color: #FFE000;
+}
+
+h1 {
+    font-size: 60px;
+    color: #6A0DAD;
+    margin-bottom: 20px;
+}
+
+.form_container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 15px;
+    background-color: #FFE000;
+}
+
+
+.form_container input[type='submit']{
+    padding: 10px 20px;
+    background-color: #00cfff;
+    border: none;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    min-width: 100px;
+    min-height: 2.5em;
+    width: 100%;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 95px;transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.form_container input:hover[type='submit'] {
+  background-color: #0056b3; /* Azul mais escuro */
+  transform: scale(1.05); /* Efeito de leve aumento */
+}
+
+.form_container p {
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+.form_container p a {
+    color: #007BFF; /* Azul padrão de links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+.form_container a:hover {
+    color: #0056b3; /* Azul mais escuro ao passar o mouse */
+    text-decoration: underline;
+  }

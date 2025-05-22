@@ -1,0 +1,109 @@
+.metricsContainer {
+  padding: 2rem;
+}
+
+.kidlist_header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.kidlist_header a{
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #00cfff;
+  border: none;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  min-width: 100px;
+  min-height: 2.5em;
+  font-size: 1.1em;
+  margin-top: 25px;
+  margin-bottom: 95px;transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.kidlist_header a:hover{
+  background-color: #0056b3; /* Azul mais escuro */
+  transform: scale(1.05); /* Efeito de leve aumento */
+}
+
+.kidlist_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #1e90ff;
+  border-radius: 15px;
+  padding: 1rem 1.5rem;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  width: 300px; /* largura fixa */
+  box-sizing: border-box;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 1rem;
+}
+
+
+.cardLeft {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.cardInfo .bold {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.cardActions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cardActions a,
+.cardActions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.3rem;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.cardActions a:hover,
+.cardActions button:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+.cardActions button {
+  color: red;
+}
+
+.cardActions a:nth-child(2) {
+  color: #333;
+}
+
+.cardActions a:nth-child(3) {
+  color: #333;
+}

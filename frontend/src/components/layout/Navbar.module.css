@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 1em 1.5em;
+    background-color: #1a1a1a;
+    color: #FFFFFF;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1em; /* espaçamento entre os botões */
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li,
+.navbar a {
+  justify-content: space-between;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+  padding: 0.5em 0.8em;
+  border-radius: 5px;
+}
+
+/* Cor ao passar o mouse */
+.navbar li:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #00ffff;
+}
+
+.navbar li:hover > a {
+    color: #00ffff;
+  }
+
+/* Cor ao clicar (durante o clique) */
+.navbar a:active {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: #dddddd;
+}

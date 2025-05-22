@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Bowlby One SC", sans-serif;
+  font-size: 2.1em;
+  font-weight: 400;
+}
+
+.bold { 
+  font-weight: bold;
+  color: #000;
+}

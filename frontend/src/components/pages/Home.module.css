@@ -1,0 +1,56 @@
+/* Corpo com gradiente animado */
+.home_container {
+    height: 100vh;
+    background: linear-gradient(270deg, #00ffff, #ffff00);
+    background-size: 400% 400%;
+    animation: gradientAnimation 30s ease infinite;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10%;
+    box-sizing: border-box;
+  }
+  
+  /* Caixinha branca flutuando */
+  .content_box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .content_box h1 {
+    font-size: 80px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .content_box p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Animação do degradê */
+  @keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
