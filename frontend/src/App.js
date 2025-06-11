@@ -18,7 +18,7 @@ import { JogoDaMemoria } from './components/pages/games/MemoryGame';
 
 //Contexto
 import { UserProvider } from './context/UserContext';
-import VerMetrica from './components/pages/kid/VerMetricas';
+import VerMetrica from './components/pages/kid/MetricaMemo';
 
 
 function App() {

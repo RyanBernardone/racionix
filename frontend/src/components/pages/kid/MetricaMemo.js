@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import api from '../../../utils/api'
 
-import styles from './VerMetrica.module.css'
+import styles from './MetricaMemo.module.css'
 import MemoryChart from '../charts/MemoryCharts'
 
 function VerMetrica() {
@@ -31,6 +31,7 @@ function VerMetrica() {
     <section className={styles.metricsContainer}>
         <h1>Gráficos de Desempenho</h1>
         {metrics.length > 0 && <MemoryChart metrics={metrics} />}
+        {metrics.length === 0 && <p>Não há nanhuma métrica para ser vista</p>}
         <hr/>
         <h1>Cards das Métricas</h1>
         <div className={styles.cardGrid}> 
